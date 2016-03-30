@@ -11,9 +11,30 @@
 	width: 80ex;
 	margin: 1ex auto 5ex auto;
 	background: #f0f0f0;
+	font-size: 12pt;
       }
       h1 {
 	text-align: center;
+      }
+      h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-top: 6ex;
+      }
+      blockquote.twitter-tweet {
+	display: inline-block;
+	font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+	font-size: 12pt;
+	line-height: 16pt;
+	border-color: #eee #ddd #bbb;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	padding: 0 16px 16px 16px;
+	max-width: 468px;
+	background-color: white;
+	margin: 1ex auto;
       }
     </style>
   </head>
@@ -52,7 +73,16 @@
     <p>Привет! У нас в Ламоде есть классная вакансия, ну правда&nbsp;&mdash; классная! </p>
     <p>Мы ищем DevOps&ndash;а в команду разработки сайта.</p>
     <p>Сайт&nbsp;&mdash; одна из ключевых наших систем. Над его развитием трудится много самых лучшей людей. Product Manager-ы совместно с аналитиками, с R&D специалистами продумывают, как сделать наш сайт еще более красивым, удобным и персонализированным. Команды в Development подразделении претворяют данные идеи в жизнь. И нам очень нужны DevOps-ы, чтобы совместно с разработчиками продумывать архитектуру нашего сервиса с учетом требований по высокой доступности и производительности.</p>
-    <p>Про технологии:</p>
+    <h2>Про технологии</h2>
+    <p>Как говорится, у нас типичный LAMP&nbsp;&mdash; FreeBSD, nginx, PostgreSQL, Python. Но про это я уже высказывался.</p>
+
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">OH: &quot;We&#39;ve got typical LAMP software stack:
+    FreeBSD, nginx, PostgreSQL, Python&quot;. At least, one letter coincides, not that bad.</p>&mdash; Vladimir Ivanov (@ivladdalvi) <a
+    href="https://twitter.com/ivladdalvi/status/697476159475421184">February 10, 2016</a></blockquote> <script async
+    src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p>На деле, все примерно так:</p>
+
     <ul>
       <li>Сайт: Python (Django) + JS</li>
       <li>Мониторинг: Zabbix, и мы смотрим на Sensu</li>
@@ -60,17 +90,19 @@
       <li>OC: сейчас FreeBSD (будем мигрировать на Linux)</li>
       <li>Менеджер конфигов: Ansible</li>
       <li>Веб-сервер: nginx</li>
+      <li>Еще Apache Solr, RabbitMQ, Radis, <s>скотч и WD&ndash;40</s></li>
     </ul>
-    <p>Что особенного?</p>
+    <h2>Что особенного?</h2>
     <p>Lamoda и наши сервисы, особенно сайт, развиваются очень быстро (вот, кстати, недавно мы запустили Marketplace), и мы готовы
     пробовать что-то новое и пробуем, если это поможет нам быть еще более эффективными, быстрыми, надежными. У нас очень
-    профессиональная команда, и что важно&nbsp;&mdash; есть у кого спросить, есть с кем "поспорить", есть с кем по "брейнстормить".</p>
+    профессиональная команда, и что важно&nbsp;&mdash; есть у кого спросить, есть с кем &laquo;поспорить&raquo;, есть с кем
+    &laquo;побрейнстормить&raquo;.</p>
     Нам нужен админ, который будет работать с разработчиками, который понимает, что сайт&nbsp;&mdash; это очень важно.
     <p>Нужен тот, кто</p>
     <ul>
-      <li>знает *nix (FreeBSD - большой плюс)</li>
+      <li>знает *nix (FreeBSD&nbsp;&mdash; конечно, плюс)</li>
       <li>умеет программировать на python/perl/ruby</li>
-      <li>знает сети</li>
+      <li>знает сети (чуть больше, чем &laquo;SYN, SYN/ACK, ACK&raquo;)</li>
       <li>работал с ansible/puppet/chef</li>
     </ul>
     <p>С нас&nbsp;&mdash; стандартный ДМС (включая стоматологию), скидки на всё на сайте Lamoda, скидки в фитнес клубы, на обеды, на
