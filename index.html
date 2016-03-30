@@ -21,21 +21,6 @@
 	font-weight: bold;
 	margin-top: 6ex;
       }
-      blockquote.twitter-tweet {
-	display: inline-block;
-	font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-	font-size: 12pt;
-	line-height: 16pt;
-	border-color: #eee #ddd #bbb;
-	border-radius: 5px;
-	border-style: solid;
-	border-width: 1px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-	padding: 0 16px 16px 16px;
-	max-width: 468px;
-	background-color: white;
-	margin: 1ex auto;
-      }
     </style>
   </head>
   <body>
@@ -77,17 +62,10 @@
     <nobr>DevOps&ndash;ы</nobr>, чтобы совместно с разработчиками продумывать архитектуру нашего сервиса с учетом требований по высокой доступности и
     производительности.</p>
     <h2>Про технологии</h2>
-    <p>Как говорится, у нас типичный LAMP&nbsp;&mdash; FreeBSD, nginx, PostgreSQL, Python. Но про это я уже высказывался.</p>
-
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">OH: &quot;We&#39;ve got typical LAMP software stack:
-    FreeBSD, nginx, PostgreSQL, Python&quot;. At least, one letter coincides, not that bad.</p>&mdash; Vladimir Ivanov (@ivladdalvi) <a
-    href="https://twitter.com/ivladdalvi/status/697476159475421184">February 10, 2016</a></blockquote> <script async
-    src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <p>На деле, все примерно так:</p>
+    <p>Как говорится, у нас типичный LAMP&nbsp;&mdash; FreeBSD, nginx, PostgreSQL, Python. На деле, все примерно так:</p>
 
     <ul>
-      <li>Сайт: Python (Django) + JS</li>
+      <li>Сайт: Python (Django) + JavaScript</li>
       <li>Мониторинг: Zabbix, и мы смотрим на Sensu</li>
       <li>DB: PostgreSQL</li>
       <li>OC: сейчас FreeBSD (будем мигрировать на Linux)</li>
